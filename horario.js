@@ -1,5 +1,5 @@
 const express = require("express")
-const router = express.Router()
+const route = express.Router()
 const app = express()
 const porta = 3333
 
@@ -16,5 +16,5 @@ function mostraHora(request, response) {
     response.send(hora)
 
 }
-app.use(router.get('/hora', mostraHora))
+app.use(route.get('/hora', mostraHora))
 app.listen(porta, mostraPorta)

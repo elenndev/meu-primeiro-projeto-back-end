@@ -1,6 +1,6 @@
 const express = require("express") // aqui estou iniciando o express
 const route = express.Router() // aqui estou configurando a primeira parte da rota
-const cors = reqire('cors') // trazendo o cors que permite que o front consuma a api
+const cors = require('cors') // trazendo o cors que permite que o front consuma a api
 
 
 //Se conectando ao bd
